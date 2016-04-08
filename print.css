@@ -1,0 +1,34 @@
+#wrapper{
+  padding: 2pt;
+}
+
+article{
+  font-size: 16pt;
+}
+
+body li{
+  font-family: 'Georgia', serif;
+  font-size: 10pt;
+}
+
+a, footer {
+  display: none;
+}
+
+nav,
+.no-print {
+  display: none;
+}
+
+h2{
+  font-size: 12pt;
+}
+p{
+  font-size: 10pt;
+}
+
+/*#skills ul {
+  float: left;
+  width: 50%;
+  display: inline-block;
+}*/
