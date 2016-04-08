@@ -2,14 +2,18 @@
 <html lang="en">
 	<head>
     <meta charset="utf-8"/>
+		<link href="style.css" rel="stylesheet" media="screen" />
+		<link href="print.css" rel="stylesheet" media="print">
 		<title>Keenan Romain's Resume</title>
 	</head>
 
 	<body>
+		<div class="wrapper">
 		<header>
-			<h1>Keenan J. Romain</h1>
+			<h1 id="start">Keenan J. Romain</h1>
       <address>
-        <p>5185 Ponce de Leon Boulevard Room 551, Coral Gables, FL</p>         <p>Tel: (973) 452-4688</p>
+        <p>5185 Ponce de Leon Boulevard Room 551, Coral Gables, FL</p>
+				<p>Tel: (973) 452-4688</p>
         <script type="text/javascript">
 				//<![CDATA[
 				<!--
@@ -28,13 +32,22 @@
      </address>
    </header>
 
+	 <nav>
+			<ul>
+				<li><a href="#objective">Objective</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#skills">Skills</a></li>
+			</ul>
+		</nav>
+
     <main>
-      <section>
+      <section id="objective">
 			  <h2>Objective</h2>
 			    <p>An entry-level position at a technology company creatively solving important problems</p>
       </section>
 
-      <section>
+      <section id="education">
         <h2>Education</h2>
 
         <!-- I have added in an article here. Notice how it segments your UM experience from Singapore? When you have multiple items within a section, like you have here, it is good to break them into articles. Do this for the Experience section, too. -->
@@ -55,7 +68,7 @@
          </article>
 			</section>
 
-      <section>
+      <section id="experience">
         <h2>Experience</h2>
           <article>
 			      <p>Administrative Intern, eMerge Americas (Jan. 2016 - Present)</p>
@@ -75,7 +88,7 @@
                   <li>Independently resolved prospective student inquiries and problems</li>
                 </ul>
              </article>
-             <article>
+             <article class="no-print">
                <p>Donor Relations Coordinator Assistant, Newman Alumni Center at the University of Miami (Jan. 2014 - June 2014)</p>
                  <ul>
                    <li>Researched prospective donors in terms of their capacity and inclination to support the University</li>
@@ -86,7 +99,7 @@
               </article>
       </section>
 
-			<section>
+			<section id="skills">
         <h2>Skills</h2>
 					<ul>
             <li>Programming Languages:
@@ -113,9 +126,11 @@
 			<section>
         <article>
           <a href="https://www.linkedin.com/in/keenanromain">Check out my LinkedIn to learn more!</a>
+					<p>Go to <a href="#start">Top of Page</a></p>
         </article>
 		  </section>
     </footer>
+	</div>
 	</body>
 
 </html>
