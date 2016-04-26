@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Hind);
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  margin: 50px 0 10px 50px;
+  background-image: url('../img/books-education-school-literature-48126-large.jpeg');
+  background-position: center top;
+  background-size: cover;
+}
+
+.wrapper{
+  font-family: 'Hind', sans-serif;
+  max-width: 600px;
+}
+
+h1{
+  font-size: 32px;
+  height: 100%;
+  margin: 0;
+}
+
+/*header{
+  width: 960;
+  margin:auto;
+}*/
+
+nav li{
+  font-weight: bold;
+  display: block;
+}
+
+nav ul{
+  padding: 0;
+}
+
+address p{
+  font-style: italic;
+  margin: 0;
+}
+
+p{
+  color: DarkSlateGray;
+  font-family: 'Hind', sans-serif;
+  font-size: 17px;
+  /* max-width: 450px;
+  margin: 10px auto 10px auto; */
+}
+
+main p{
+  text-align: justify;
+}
+
+li{
+  color: DarkSlateGray;
+  font-size: 15px;
+  text-align: left;
+  padding: 1px;
+  /* margin: 10px auto 10px auto;
+  max-width: 450px; */
+}
+
+
+ a:visited{
+  color: rgb(141, 172, 200);
+  text-decoration: none;
+}
+
+a{
+  color: rgb(21, 78, 149);
+  text-decoration: none;
+}
+
+a:hover{ position: relative;
+             top: -2px;}
+
+footer li{
+  display: inline-block;
+}
